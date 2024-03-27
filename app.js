@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let my_balance = 10000;
 let my_pin = 1234;
-console.log(chalk.blackBright.bold.bgWhite("\n\t\t****************************  Welcome to alihahmi2288_Atm_Machine  *****************************"));
+console.log(chalk.blackBright.bold.bgWhiteBright("\n\t\t****************************  Welcome to alihahmi2288_Atm_Machine  *****************************"));
 console.log(chalk.cyanBright.bold(`\nYour Balance is ${my_balance}\n`));
 let pin_ans = await inquirer.prompt({
     name: "pin",
