@@ -6,4 +6,5 @@ I have also added some additional fuctionalities which are given below:
 3) I added Chalk Library to make it look good.
 4) I added Fast Cash Withdrawl Option.
 
-npx command : npx 
+npx command : npx alihahsmi2288_atm_machine
+
